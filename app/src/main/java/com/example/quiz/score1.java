@@ -26,7 +26,7 @@ public class score1 extends AppCompatActivity {
         tv=findViewById(R.id.Score);
         leaderboard=findViewById(R.id.ldr);
 
-        sc = sp.getInt("score", 0);
+        sc = sp.getInt("score ", 0);
         j=String.valueOf(sc);
         tv.setText(""+j+"/10");
         editor=sp.edit();
